@@ -1,25 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 h1 {
     color: #333;
-    font-size: 2em;
+    font-size: 4em;
     margin-bottom: 20px;
 
 }
 h2 {
     color: #555;
-    font-size: 1.5em;
+    font-size: 3.5em;
     margin-bottom: 10px;
 }
 input[type="number"] {
     padding: 10px;
     font-size: 1em;
     width: 200px;
-    margin-bottom: 20px;
-    border-radius: 15px;
+    margin-bottom: 40px;
+    border-radius: 30px;
 }
 button {
     padding: 10px 20px;
@@ -31,9 +31,15 @@ button {
     border: none;
     cursor: pointer;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 30px;
 
 }
 button:hover {
     background-color: #0056b3;
+}
+footer {
+    margin-top: 20px;
+    color: #777;
+    font-size: 0.9em;
+    text-align: center;
 }
